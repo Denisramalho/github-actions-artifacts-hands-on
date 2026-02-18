@@ -34,4 +34,4 @@ jobs:
         run: ls -ltra artifacts/
 
       - name: read text
-        run: cat /artifacts/hello.txt
+        run: cat ./artifacts/hello.txt
